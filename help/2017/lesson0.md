@@ -12,7 +12,7 @@ Deep learning is:
     - "fast and scalable" - the most recent development; using **GPUs**, which are optimized for _matrix operations_ that are computationally expensive
 
 **The three characteristics of a deep learning algorithm**
-![The three characteristics of a deep learning algorithm](https://github.com/iconix/fast.ai/blob/master/help/2017/assets/dl_characteristics.png)
+![The three characteristics of a deep learning algorithm](https://github.com/iconix/fast.ai/raw/master/help/assets/dl_characteristics.png)
 
 Arthur Samuel: father of ML; coined the term "machine learning" in 1959
 - Programmed a computer to beat him in checkers
@@ -32,6 +32,6 @@ Useful prerequisites for deep learning:
 - Python [list comprehensions](http://treyhunner.com/2015/12/python-list-comprehensions-now-in-color/)
 - Python [data science libraries](http://wiki.fast.ai/index.php/Python_libraries) (numpy, scipy, scikit-learn, pandas, Jupyter notebook, matplotlib)
 
-And you **do _not_** actually need [a PhD + all of this](https://news.ycombinator.com/item?id=12901536) to get started!
+    ...and you **do _not_** actually need [a PhD + all of this](https://news.ycombinator.com/item?id=12901536) to get started!
 
 Teaching philosophy: **Good education is not overly complicated**.
