@@ -1,6 +1,6 @@
-# Lesson 0: Course Overview
+# Lesson 0: Why Deep Learning; Intro to Convolutions
 
-[Wiki notes](http://course.fast.ai/lessons/lesson0.html) | [Video](https://www.youtube.com/watch?v=ACU-T9L4_lI)
+[Lesson page](http://course17.fast.ai/lessons/lesson0.html) | [Video](https://www.youtube.com/watch?v=ACU-T9L4_lI)
 
 Deep learning = **Linear algebra + Optimization**
 
@@ -9,7 +9,7 @@ Deep learning is:
 - an algorithm with three characteristics:
     - "infinitely flexible function" - inspired by the way the human brain works (neural networks as _universal approximation machines_)
     - "all-purpose parameter fitting" - through _gradient descent_ and _backward propagation of errors_ (via the _chain rule_)
-    - "fast and scalable" - the most recent development; using **GPUs**, which are optimized for _matrix operations_ that are computationally expensive
+    - "fast and scalable" - the most recent development; cloud computing + **GPUs**, which are optimized for _matrix operations_ that are computationally expensive
 
 **The three characteristics of a deep learning algorithm**
 ![The three characteristics of a deep learning algorithm](https://github.com/iconix/fast.ai/raw/master/help/assets/dl_characteristics.png)
@@ -17,8 +17,15 @@ Deep learning is:
 Arthur Samuel: father of ML; coined the term "machine learning" in 1959
 - Programmed a computer to beat him in checkers
 
-Convolution Neural Networks (CNNs) = **Convolutions + Optimization**
-- Convolutions are a subset of linear algebra
+Convolutional Neural Networks (CNNs) = **Convolutions + Optimization**
+- Convolutions? a subset of linear algebra
+- Take a "filter", "correlate" it to an image, rotate it by 90 degrees; repeat until you've rotated the filter in all possible directions
+    - Filter: 3x3 matrices
+    - Correlate: multiply the
+     filter by each area
+    - This is _feature engineering_
+     in deep learning - we're trying to find a fingerprint
+        - But instead of carefully selecting N filters, we start with N random filters and then make them better and better (i.e., find the optimal set of filters)
 
 Deep learning allows us to learn things with **unstructured** data.
 
