@@ -1,7 +1,7 @@
 # Commands Cheat Sheet
 
 |**Category**|**Command**|**Description**
------|-----|-----|-----
+-----|-----|-----
 |General| |
 | |tree -d|show directory structure
 | |ls -l <folder> \| wc -l|get file count in \<folder\>
