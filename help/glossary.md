@@ -67,7 +67,7 @@ While compiling my own glossary based on this course, I stumbled upon some other
 - **Zero-padding layer**: a layer that adds extra borders of zero pixels around the image prior to passing through a filter so that the output shape from the filter is the same as the input shape. This is needed because _convolving_ each pixel of an image necessarily operates on the premise that each pixel has 8 surrounding pixels (if the filter is conventionally 3x3); see also _convolution_.
 
 ## Non-Deep Terminology
-_Non-deep terms that come up in deep learning_
+_Non-deep terms that come up in deep learning._
 
 - **Bias**: **TODO**
 - **Boosting**: **TODO**
