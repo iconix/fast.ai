@@ -6,4 +6,4 @@ See the [help content](https://github.com/iconix/fast.ai/blob/master/help/2017/R
 
 I blogged about taking this course as well:
 - [_fast.ai, week 2_](https://iconix.github.io/notes/2017/08/18/fast-week2.html)
-- [_fast.ai in review_ **TODO:** link]()
+- [_fast.ai in review_](https://iconix.github.io/notes/2018/03/25/fast-ai-in-review.html)
