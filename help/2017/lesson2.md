@@ -20,7 +20,7 @@ Probability outputs of a deep learning network are **mathematical, not statistic
 ### What is a deep neural network?
 
 - Jeremy: "Basically is a bunch of matrix products followed by activation functions"
-- Remember (from Lesson 0): _Deep Learning = Linear Algebra + Optimization_, and **Convolutional Neural Networks (CNNs) = Convolutions + Optimization**
+- Remember (from Lesson 0): _Deep Learning = Linear Algebra + Optimization_, and **_Convolutional Neural Networks (CNNs) = Convolutions + Optimization_**
     - **Convolutions: subset of Linear Algebra that finds the fingerprint of an image.** It takes a "filter" (e.g., 3x3 matrix), "correlates" it (i.e., multiplies the filter by each area) to an image, and then rotates the filter by 90 degrees and repeats the correlation until the filter has been rotated and correlated in all possible directions on the image
     - **Convolutions are a method of feature engineering in deep learning**
         - Manual feature engineering is pre-deep learning
@@ -40,7 +40,7 @@ Neural network (weight) initialization is key to the success of efficiently lear
 - Modern deep learning libraries (e.g., Keras) handle weight initialization for you
 
 Once initialized with random weights, **fitting** begins - the process of going from random weights producing random output to weights that will get us as close to our target outputs as possible. To do this, we need an **optimization algorithm**. The most common optimization algorithm, and one that is ubiquitous throughout deep learning, is **Gradient Descent**.
-- Rachel: "It's powerful to think that you can start with something random and by iterating eventually get to something that works."
+- Rachel: "**It's powerful to think that you can start with something random and by iterating eventually get to something that works.**"
 
 # Reading Notes
 
@@ -53,12 +53,12 @@ Lesson 2 Readings:
 - [A unique path to deep learning expertise](http://www.fast.ai/2016/10/08/overview/) - (optional) some brief thoughts about the teaching methods used in the class
 - [A Mathematician's Lament](https://www.maa.org/external_archive/devlin/LockhartsLament.pdf) - (optional) more background on the teaching methods for this course
 
-[Question running through my mind as I read the Stanford CNN pages] Why read this? This class has been professed as not being about the math...
+[_Question running through my mind as I read the Stanford CNN pages_] Why read this? This class has been professed as not being about the math...
 - Maybe because I knew this premise of the class, I was able to lighten my expectations of understanding every equation and instead, I focused on the intuition. Then the reading wasn't so bad and became more enjoyable.
-- Maybe they plan on wedging the underlying complexity into our heads, slowly and with pace over time
-- [[Rachel](http://forums.fast.ai/t/is-it-fine-if-i-do-not-understand-the-maths-completely-in-lesson-2-readings/3323/4)] "**Definitely more about getting intuition!** Also, don't let trying to understand all the details bog you down, because **the course returns to concepts several times, with progressively more detail as time goes on**."
+- Maybe they plan on wedging the underlying complexity into our heads, slowly and with pace over time.
+    - [Rachel](http://forums.fast.ai/t/is-it-fine-if-i-do-not-understand-the-maths-completely-in-lesson-2-readings/3323/4): "**Definitely more about getting intuition!** Also, don't let trying to understand all the details bog you down, because **the course returns to concepts several times, with progressively more detail as time goes on**."
 
-[[Lesson 2 Discussion](http://forums.fast.ai/t/lesson-2-discussion/161/2?u=iconix)] "There are some fantastic readings that cover similar material to this week's course. I've added them to the lesson wiki page. In particular, the Stanford CNN course is some of the best technical writing I've seen, and is totally up to date. **If you have 8 hours to spend this week, spending half that time reading the Stanford notes would be an excellent use of your time this week.**" - Jeremy Howard
+[Jeremy](http://forums.fast.ai/t/lesson-2-discussion/161/2): "There are some fantastic readings that cover similar material to this week's course. I've added them to the lesson wiki page. In particular, the Stanford CNN course is **some of the best technical writing I've seen**, and is totally up to date. **If you have 8 hours to spend this week, spending half that time reading the Stanford notes would be an excellent use of your time this week.**"
 
 ## CS231n
 
@@ -145,11 +145,8 @@ The area of Neural Networks has originally been primarily inspired by the goal o
 
 #### Biological motivation and connections
 
-|
-![Biological neuron](https://github.com/iconix/fast.ai/raw/master/help/assets/neuron_bio.png)
-|
-![Deep learning neuron](https://github.com/iconix/fast.ai/raw/master/help/assets/neuron_dl.jpg)
-|
+![Biological neuron](https://github.com/iconix/fast.ai/raw/master/help/assets/neuron\_bio.png)|![Deep learning neuron](https://github.com/iconix/fast.ai/raw/master/help/assets/neuron\_dl.jpg)
+:-----:|:-----:
 
 **A single neuron can be used to implement a binary classifier** (e.g. binary Softmax or binary SVM classifiers)
 
