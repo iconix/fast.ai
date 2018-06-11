@@ -8,3 +8,4 @@ _Things Jeremy found cool enough to bring up multiple times in class._
 4. [Image Kernels: Explained Visually](http://setosa.io/ev/image-kernels/)
 5. Excellent technical writing on [Convolutional Neural Networks for Visual Recognition](http://cs231n.github.io/) by Stanford CS231n
     - Notes on these CNN pages included at the bottom of my [lesson 2 notes](https://github.com/iconix/fast.ai/blob/master/help/2017/lesson2.md)
+6. A collection of [Deep Learning Best Practices](https://github.com/alessiamarcolini/deep-learning_best-practices) from the course, compiled by fast.ai students
